@@ -634,7 +634,8 @@ tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 
 local function group_settings(msg, target)
 local group = load_data('bot/group.json')
-pm = '<b>⚙️ SuperGroup settings:</b>'
+pm = '<b>⚙️ SuperGroup settings:</b>
+  @sudo_star'
 --pm = pm..'\n <code>💈💈💈💈💈💈💈💈💈</code>'
 pm = pm..'\n🏮 <code>➣</code> <b>Lock</b> <code>➣</code> <b>Links</b> <code>»</code> '..group[tostring(target)]['settings']['lock_link']..''
 pm = pm..'\n🏮 <code>➣</code> <b>Lock</b> <code>➣</code> <b>User</b> <code>»</code> '..group[tostring(target)]['settings']['lock_username']..''
