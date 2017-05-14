@@ -19,17 +19,21 @@ do local _ = {
     "help",
     "leave",
     "lock_bots",
-    "me"
+    "me",
+    "addkick",
+    "fun",
+    "tools",
+    "banhammer"
   },
   group = {
     data = "bot/group.json"
   },
   robot = {
-    987654321,
+    391986200,
     0
   },
   sudo_users = {
-    13456789,
+    307494481,
     0
   }
 }
